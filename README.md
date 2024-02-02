@@ -40,3 +40,4 @@ __Блок footer__ - подвал сайта
 Сайт - [Сложно сосредоточиться](https://sergey-pyschkin.github.io/slozhno-sosredotochitsya/)
 Репозиторий - [Сложно сосредоточиться](https://github.com/sergey-pyschkin/slozhno-sosredotochitsya.git)
 
+# slozhno-sosredotochitsya
