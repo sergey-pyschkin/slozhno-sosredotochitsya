@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  height: 100vh;
+  min-height: 768px;
+  margin: 0 20px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (width < 1024px) and (width >= 768px) {
+.footer {
+  min-height: 1024px;
+}
+}
+
+@media (width < 768px) and (width >= 375px) {
+  .footer {
+    min-height: 668px;
+    margin: 0 10px;
+  }
+}

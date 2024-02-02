@@ -1,0 +1,15 @@
+.main {
+  line-height: 130%;
+  margin: 60px 20px;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+@media (width < 768px) and (width >= 375px) {
+  .main {
+    margin: 40px 10px;
+    gap: 50px;
+  }
+}

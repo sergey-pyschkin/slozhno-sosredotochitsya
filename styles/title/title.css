@@ -1,0 +1,28 @@
+.title {
+  margin-block-end: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--section-title-color);
+  width: 32%;
+}
+
+.section-why .title,
+.section-advices .title {
+  flex: 0 0 auto;
+}
+
+.section-pictures .title {
+  grid-column: 1/-1;
+  width: 100%;
+  margin: 0;
+}
+
+@media (width < 768px) and (width >= 375px) {
+  .title {
+    width: 100%;
+  }
+}
+
+
+
+

@@ -1,0 +1,18 @@
+.section-pictures {
+  display: grid;
+}
+
+@media (width >= 768px) {
+  .section-pictures {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px 19px;
+  }
+}
+
+@media (width < 768px) {
+  .section-pictures {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

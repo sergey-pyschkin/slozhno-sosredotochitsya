@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/* Глобальные стили для проекта */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  block-size: 100%;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-weight: 400;
+  min-inline-size: 375px;
+  max-inline-size: 1024px;
+  margin: 0 auto;
+  block-size: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+
+  padding: 0;
+  list-style: none;
+}
+
+picture {
+  margin: 0;
+  padding: 0;
+}
+
+button,
+a {
+  color: currentColor;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+.dark-title {
+  color: var(--article-title-color);
+}

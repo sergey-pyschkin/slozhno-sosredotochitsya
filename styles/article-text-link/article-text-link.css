@@ -1,0 +1,17 @@
+.article-text-link {
+  border: transparent;
+  text-shadow: 3px 3px 0px var(--link-shadow);
+  transition-duration: var(--transition-duration);
+}
+
+.article-text-link:hover {
+  border-bottom: 1px solid var(--main-text-color);
+}
+
+.article-text-link:focus {
+  outline: none;
+}
+
+.article-text-link:focus-visible {
+  outline: 1px solid var(--main-text-color);
+}

@@ -1,0 +1,43 @@
+.article-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.section-causes .article-list {
+  gap: 18px;
+}
+
+@media (width < 768px) and (width >= 375px) {
+  .section-causes .article-list {
+    gap: 17px;
+  }
+}
+
+.section-why .article-list,
+.section-advices .article-list {
+  flex: 0 0 auto;
+  width: 66%;
+  flex-direction: column;
+}
+
+@media (width < 1024px) and (width >= 768px) {
+  .section-why .article-list,
+  .section-advices .article-list {
+    width: 65%;
+  }
+}
+
+
+@media (width >= 1024px) {
+  .section-causes .article-list {
+    justify-content: space-between;
+  }
+}
+
+@media (width < 768px) and (width >= 375px) {
+  .section-why .article-list,
+  .section-advices .article-list {
+    width: 100%;
+  }
+}

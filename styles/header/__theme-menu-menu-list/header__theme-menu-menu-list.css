@@ -1,0 +1,18 @@
+.header__theme-menu-list {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+@media (width < 1024px) {
+  .header__theme-menu-list {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+
+@media (width < 768px) and (width >= 375px) {
+  .header__theme-menu-list {
+    gap: 11px;
+  }
+}
