@@ -1,11 +1,9 @@
-@import url("../fonts/fonts.css");
 @import url("../styles/style.css");
 @import url("../styles/header/header.css");
 @import url("../styles/header/__rec/header__rec.css");
 @import url("../styles/header/__theme-menu/header__theme-menu.css");
 @import url("../styles/header/__theme-menu-menu-list/header__theme-menu-menu-list.css");
 @import url("../styles/header/__theme-menu-button/header__theme-menu-button.css");
-@import url("../styles/header/__title-container/header__title-container.css");
 @import url("../styles/header/__title/header__title.css");
 @import url("../styles/header/__subtitle/header__subtitle.css");
 @import url("../styles/main/main.css");

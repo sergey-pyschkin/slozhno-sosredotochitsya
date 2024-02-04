@@ -2,15 +2,16 @@
   position: absolute;
   color: var(--rec-color);
   text-transform: uppercase;
-  top: 21px;
   right: 29px;
+  top: 21px;
 }
 
 @media (width < 768px) and (width >= 375px) {
   .header__rec {
     top: 11px;
+    }
   }
-}
+
 
 .header__rec::after {
   content: "";

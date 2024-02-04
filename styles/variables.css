@@ -6,7 +6,7 @@
 */
 
 :root {
-  --font-family: "IBM Plex mono";
+  --font-family: "IBM Plex mono", "monospace",  sans-serif;
 }
 
 

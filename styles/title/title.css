@@ -24,5 +24,13 @@
 }
 
 
+@media (width >= 768px) {
+  .section-why .title,
+  .section-advices .title {
+    margin: 0;
+  }
+}
+
+
 
 
