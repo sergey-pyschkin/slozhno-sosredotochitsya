@@ -1,7 +1,7 @@
 .header {
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
-  margin: 20px 20px 0 20px;
+  margin: 0 20px 0 20px;
   height: 100vh;
   min-height: 768px;
   position: relative;
@@ -16,6 +16,6 @@
 @media (width < 768px) and (width >= 375px) {
   .header {
     min-height: 668px;
-    margin: 10px 10px 0px 10px;
+    margin: 0 10px 0px 10px;
   }
 }

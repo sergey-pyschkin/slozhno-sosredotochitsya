@@ -5,8 +5,9 @@
 @media (width < 1024px) and (width >= 375px) {
   .header__theme-menu {
     align-self: center;
-    padding-block-start: 0px;
+    padding-block-start: 10px;
   }
 }
+
 
 
